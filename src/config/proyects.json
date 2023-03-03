@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Ateliers",
+        "description": "presentacion de productos e inovaciones en el rubro de peluquero y tinturas",
+        "imagen":"images/cursos1.jpg"
+    },
+    {
+        "title":"Cursos Online",
+        "description": "capacitacion particular en modalidad a distancia y atencion constante en el crecimiento de la tecnica",
+        "imagen":"images/cursos2.jpg"
+    },
+    {
+        "title":"En Vivo",
+        "description": "presentamos modalidad de clases en grupo para corte, tintura, evaluacion y testint para futuros profesionales",
+        "imagen":"images/cursos3.jpg"
+    }
+]

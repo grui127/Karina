@@ -1,0 +1,20 @@
+---
+import projects from '../../config/proyects.json'
+---
+
+<h2 id="cursos" class="font-bold text-5xl py-5 mx-3 text-center lg:text-left">Cursos</h2>
+
+{
+    projects.map(p=>(
+        <div class="flex flex-col mb-2 text-center md:text-left md:flex-row">
+            <div class="flex-1 py-4 mx-3 lg:text-center">
+                <h2 class="font-bold text-2xl mx-2">{p.title}</h2>
+                <p class="my-4 text-xl">{p.description}</p>
+                <button class="bg-[color:var(--detalle)] px-3 py-2 hover:opacity-80 text-[color:var(--otro)]">Mas Info</button>
+            </div>
+            <div class="flex-1">
+                <img src={p.imagen} alt="cursos" class="w-60 h-60 m-auto object-cover ">
+            </div>
+        </div>
+    ))
+}

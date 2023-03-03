@@ -1,0 +1,14 @@
+---
+import fictures from '../../config/fictures.json'
+---
+
+<div class="flex flex-wrap bg-[color:var(--detalle)] border-[color:var(--otro)] border-2 gap-5 py-4">
+    {
+        fictures.map((f)=>(   
+        <div class="flex-1 rounded-xl text-[color:var(--otro)] text-center min-w-fit md:min-w-min">
+        <h2 class="text-2xl font-bold my-1">{f.title}</h2>
+        <img src={f.imagen} class="w-64 h-52 object-cover m-auto"/>
+        <span>{f.desc}</span>
+    </div>))
+    }
+</div>

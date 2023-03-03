@@ -1,0 +1,38 @@
+<nav class="flex items-center justify-between flex-wrap bg-[color:var(--detalle)] p-2 fixed z-10 container">
+  <div class="flex items-center flex-shrink-0 text-[color:var(--fondo)] mr-6 hover:opacity-80 cursor-pointer">
+    <a href="#banner">
+    <img src="images/K.png" alt="mini-logo" class="w-12 h-10" title="karina"></a>
+    <a href="#banner"><span class="text-xl p-2 hover:text-[color:var(--otro)]">Amaya</span></a>
+  </div>
+  <div class="block lg:hidden">
+    <button 
+    id="btn-nav"
+    class="flex items-center px-3 py-2 border rounded hover:text-[color:var(--letra)] hover:opacity-50">
+      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
+  <div
+  id="menu" 
+  class="w-full hidden text-center lg:text-right flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="text-lg lg:flex-grow">
+      <a href="#banner" class="mr-5 inline-block lg:mt-0 hover:text-[color:var(--otro)] hover:opacity-50">
+        Inicio
+      </a>
+      <a href="#contacto" class=" mr-5 inline-block lg:mt-0 hover:text-[color:var(--otro)] hover:opacity-50">
+        Contacto
+      </a>
+      <a href="#cursos" class=" mr-5 inline-block lg:mt-0 hover:text-[color:var(--otro)] hover:opacity-50">
+        Cursos
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const btn = document.getElementById("btn-nav");
+  const menu = document.getElementById("menu")
+  
+  btn?.addEventListener("click",()=>{
+      menu?.classList.toggle("hidden")
+    })
+</script>

@@ -1,0 +1,24 @@
+[
+    {
+        "title": "maquillaje",
+        "imagen": "images/maquillaje.jpg",
+        "desc":"eventos y fiestas"
+    },
+    
+    {
+        "title": "manicuria",
+        "imagen": "images/manos.jpg",
+        "desc":"retoque y decorado"
+    },
+    {
+        "title": "depilacion",
+        "imagen": "images/depilacion.jpg",
+        "desc":"masculina/femenina"
+    },
+    
+    {
+        "title": "testing",
+        "imagen": "images/testing.jpg",
+        "desc":"tinturas y productos"
+    }
+]
